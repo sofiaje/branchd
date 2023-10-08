@@ -213,9 +213,9 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header companys={companys} />
+
       <main className='max-w-2xl flex flex-col justify-center' id="top">
-        <h1>test</h1>
         {companys.map((company, i) => {
           return <Company key={i} company={company} userComments={userComments} setUserComments={setUserComments} />
         })}
