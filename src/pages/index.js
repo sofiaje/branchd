@@ -216,16 +216,16 @@ export default function Home() {
 
 
   return (
-    <>
+    <div className='max-w-2xl flex flex-col justify-center' id="top">
       <Header companys={companys} />
 
-      <main className='max-w-2xl flex flex-col justify-center' id="top">
+      <main className='flex flex-wrap relative mt-20'>
         {companys.map((company, i) => {
           return <Company key={i} company={company} userComments={userComments} setUserComments={setUserComments} />
         })}
       </main>
       <button onClick={() => handleClick()} className='p-3 fixed right-0 bottom-44 border rounded-tl-lg rounded-bl-lg bg-green-500 text-white font-bold'>TOP</button>
 
-    </>
+    </div>
   )
 }
