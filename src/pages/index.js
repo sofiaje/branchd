@@ -210,6 +210,10 @@ export default function Home() {
     {userComments.length > 0 && window.localStorage.setItem("userComments", JSON.stringify(userComments)) }
   }, [userComments])
 
+  const handleClick = () => {
+    scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
 
   return (
     <>
@@ -220,6 +224,8 @@ export default function Home() {
           return <Company key={i} company={company} userComments={userComments} setUserComments={setUserComments} />
         })}
       </main>
+      <button onClick={() => handleClick()} className='p-3 fixed right-0 bottom-44 border rounded-tl-lg rounded-bl-lg bg-green-500 text-white font-bold'>TOP</button>
+
     </>
   )
 }
