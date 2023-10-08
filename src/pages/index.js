@@ -1,8 +1,7 @@
+import Company from '@/components/Company'
 import Header from '@/components/Header'
-import { Inter } from 'next/font/google'
 import { useEffect, useState } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
 
 const companys = [
   {
@@ -214,13 +213,13 @@ export default function Home() {
 
   return (
     <>
-    <Header />
-    <main className='max-w-2xl flex flex-col justify-center' id="top">
-      <h1>test</h1>
-      {companys.map((company, i) => {
-        return <div>{company.name}</div>
-      })}
-    </main>
+      <Header />
+      <main className='max-w-2xl flex flex-col justify-center' id="top">
+        <h1>test</h1>
+        {companys.map((company, i) => {
+          return <Company key={i} company={company} userComments={userComments} setUserComments={setUserComments} />
+        })}
+      </main>
     </>
   )
 }
