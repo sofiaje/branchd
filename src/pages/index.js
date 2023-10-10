@@ -194,6 +194,30 @@ const companys = [
     links: [{ name: "Webbsida", url: "https://www.zingtongroup.com/" }, { name: "LinkedIn", url: "https://www.linkedin.com/company/zington/?originalSubdomain=se" }],
     id: 16
   },
+  {
+    name: "Inadra",
+    body: "Vi på Inadra arbetar med nästa generations eventsystem Jirango. Här bygger vi funktioner för alltifrån ekonomiska rapporter till grafiska drag-n-drop editorer. Vi arbetar med .Net, C#, SQL Server och React.",
+    lia: true,
+    hire: true,
+    contact: "Du kan kontakta mig om du har några frågor:",
+    contactEmail: "michael@inadra.se",
+    contactWeb: null,
+    competences: null,
+    links: [{ name: "Webbsida", url: "https://web.jirango.com/" }],
+    id: 17
+  },
+  {
+    name: "Telia",
+    body: "I en värld som är allt mer sammanflätad med teknik är det inte bara en bekvämlighet att hålla kontakten, det är en nödvändighet. På Telia har vi haft en rik tradition av banbrytande anslutningslösningar i över ett sekel, och positionerat oss i hjärtat av en av världens mest sammankopplade regioner. Vår resa drivs av en uthållig strävan att omdefiniera essensen av uppkopplat boende, vilket gör det smartare, hållbart och i synk med det digitala landskapet som utvecklas. Kärnan i vårt uppdrag är att utnyttja kraften i molnteknik, en hörnsten som gör det möjligt för oss att skapa sömlösa digitala upplevelser. Molnets gränslösa infrastruktur är språngbrädan från vilken vi lanserar tjänster som transformerar industrier. Från att främja hyperautomatisering i industrisektorer till att stärka tillförlitligheten hos banksystem, våra molndrivna lösningar ligger i framkant när det gäller att revolutionera hur företag fungerar. Men vår vision överskrider affärsområdet. Vi förbättrar också personliga digitala upplevelser, höjer streamingkvaliteten, spelfördjupning och förenklar arbetsprocesser. Genom att avmystifiera teknikens komplexitet överbryggar vi avstånd och skapar ett mer sammansvetsat digitalt samhälle. Vårt engagemang viker inte när det gäller att främja en kultur av inkludering och innovation inom vårt samhälle. Vår miljö är en där varje medlem är en viktig pixel i den större bilden, och bidrar till en gemensam ambition att leverera fantastiska produkter och extraordinära kundupplevelser. Kamratskapet på Telia handlar inte bara om att växa tillsammans, utan om att utveckla etiken för uppkopplad teknik tillsammans med våra kunder och partners. Din resa hos oss är sammanflätad med den ständiga utvecklingen av teknik på Telia. Genom att kliva in i vår sfär tar du dig in på en väg fylld av oändliga inlärningsmöjligheter, mentorskap från erfarna proffs och samarbeten med internationella teknikfans. Tillsammans håller vi inte bara jämna steg med den tekniska utvecklingen, vi sätter takten. Gå med oss ??och bli en del av en transformativ resa där din input resonerar genom samhällenas digitala ådror och påverkar livet för miljoner. Med Telia omfamnar du inte bara ett jobb, du omfamnar en framtid där vi tillsammans gör ”bättre” till verklighet.",
+    lia: true,
+    hire: true,
+    contact: "Du kan kontakta mig om du har några frågor:",
+    contactEmail: "oskar.sjostrand@teliacompany.com",
+    contactWeb: null,
+    competences: null,
+    links: [{ name: "Webbsida", url: "https://www.teliacompany.com/en" }, { name: "LinkedIn", url: "https://www.linkedin.com/company/teliacompany/" }, {name: "Företagsfilm", url: "https://www.youtube.com/watch?v=IrK3bPwzhs8&ab_channel=TeliaCompany"}],
+    id: 18
+  },
 ]
 
 
